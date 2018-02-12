@@ -78,7 +78,15 @@ nav ul li {
 
 
 
+
+
 /*main section*/
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
 
 
 
@@ -111,4 +119,63 @@ nav ul li {
 
 #fittings img, #delivery img {
   width: 5rem;
+}
+
+
+
+
+
+#info-container {
+  display: inline-flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+}
+
+
+.info {
+  width: 35%;
+  margin: 0 2.5%;
+}
+
+
+.info-heading {
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: cadetblue;
+  color: white;
+  width: 10rem;
+  padding: 0.5rem 1.25rem;
+}
+
+
+
+
+
+/*footer section*/
+
+
+
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+#copyright-container {
+  display: inline-flex;
+  background-color: azure;
+  padding: 4rem 4rem;
+  align-items: center;
+}
+
+#copyright-container img {
+  height: 1.5rem;
+}
+
+
+#copyright-text {
+  padding-left: 1rem;
 }
